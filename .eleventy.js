@@ -3,10 +3,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css");
   return {
     dir: {
-      // default: [site root]
       input: "src",
-      // default: _site
-      output: "public",
-    },
+      output: "public"
+    }
   };
 };

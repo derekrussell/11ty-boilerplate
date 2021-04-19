@@ -5,7 +5,7 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "watch:sass": "sass --watch src/scss:public/css",
+    "watch:sass": "sass --watch src/scss/:public/css",
     "build:sass": "sass src/scss:public/css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",

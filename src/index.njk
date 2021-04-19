@@ -1,0 +1,15 @@
+---
+title: 11ty Boilerplate 
+---
+
+{% extends "layout.njk" %}
+
+{% from "components/component.njk" import component %}
+
+{% block content %}
+
+{{ component({
+  label: "value"
+}) }}
+
+{% endblock %}

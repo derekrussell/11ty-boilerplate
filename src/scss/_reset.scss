@@ -1,0 +1,24 @@
+/* Reset
+-------------------------------------------------- */
+
+/**
+ * Reset size and spacing.
+ */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/**
+ * Set minumum height to 100%.
+ */
+
+body,
+html {
+  min-height: 100%;
+}
