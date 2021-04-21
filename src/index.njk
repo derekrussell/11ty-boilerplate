@@ -1,15 +1,11 @@
----
-title: 11ty Boilerplate 
----
+{% extends "layouts/page.html" %}
 
-{% extends "layout.njk" %}
-
-{% from "components/component.njk" import component %}
+{% from "components/component.html" import component %}
 
 {% block content %}
 
-{{ component({
-  label: "value"
-}) }}
+{# component({
+  prop: "value"
+}) #}
 
 {% endblock %}
